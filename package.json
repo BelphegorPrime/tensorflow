@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "mnist": "node mnist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/BelphegorPrime/tensorflow#readme",
   "dependencies": {
     "@tensorflow/tfjs": "^3.12.0",
-    "@tensorflow/tfjs-node": "^3.12.0"
+    "@tensorflow/tfjs-node": "^3.12.0",
+    "argparse": "^2.0.1"
   }
 }
